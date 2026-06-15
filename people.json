@@ -1,0 +1,547 @@
+{
+  "_notes": "משפחת לשנסקי - מבנה עדכני עם כל הקשרים המשפחתיים",
+
+  "family_name": "לשנסקי",
+
+  "people": [
+    {
+      "id": "p_avraham_yitzchak_gen1",
+      "fullName": "אברהם יצחק לשנסקי",
+      "firstName": "אברהם יצחק",
+      "gender": "M",
+      "status": "deceased",
+      "dob_gregorian": null,
+      "dob_hebrew": null,
+      "notes": "סבא - הורה של שמשון נחמן (p01)",
+      "children": ["p01"]
+    },
+    {
+      "id": "p_tirtza_gen1",
+      "fullName": "תרצה לשנסקי",
+      "firstName": "תרצה",
+      "gender": "F",
+      "status": "deceased",
+      "dob_gregorian": "1931-08-04",
+      "dob_hebrew": null,
+      "notes": "סבתא - הורה של שמשון נחמן (p01)",
+      "children": ["p01"]
+    },
+
+    {
+      "id": "p_granny",
+      "fullName": "סוניא (Granny)",
+      "firstName": "סוניא",
+      "nickName": "Granny",
+      "gender": "F",
+      "status": "deceased",
+      "dob_gregorian": null,
+      "dob_hebrew": null,
+      "notes": "סבתא - הורה של טסה (p02)",
+      "children": ["p02"]
+    },
+    {
+      "id": "p_birdie",
+      "fullName": "ירמיה (Birdie)",
+      "firstName": "ירמיה",
+      "nickName": "Birdie",
+      "gender": "M",
+      "status": "deceased",
+      "dob_gregorian": null,
+      "dob_hebrew": null,
+      "notes": "סבא - הורה של טסה (p02)",
+      "children": ["p02"]
+    },
+
+    {
+      "id": "p01",
+      "fullName": "שמשון נחמן לשנסקי",
+      "firstName": "שמשון נחמן",
+      "gender": "M",
+      "status": "alive",
+      "dob_gregorian": "1960-07-25",
+      "dob_hebrew": "ראש חודש אב",
+      "dob_hebrew_year": "התש\"כ",
+      "parents": ["p_avraham_yitzchak_gen1", "p_tirtza_gen1"],
+      "marriage": {
+        "spouseId": "p02",
+        "date_gregorian": null,
+        "date_hebrew": null
+      },
+      "children": ["p03", "p04", "p05", "p06", "p07", "p08", "p09"]
+    },
+    {
+      "id": "p02",
+      "fullName": "טסה לשנסקי",
+      "firstName": "טסה",
+      "gender": "F",
+      "status": "alive",
+      "dob_gregorian": "1960-10-23",
+      "dob_hebrew": "ב' חשון",
+      "dob_hebrew_year": "התשכ\"א",
+      "parents": ["p_granny", "p_birdie"],
+      "marriage": {
+        "spouseId": "p01",
+        "date_gregorian": null,
+        "date_hebrew": null
+      },
+      "children": ["p03", "p04", "p05", "p06", "p07", "p08", "p09"]
+    },
+
+    {
+      "id": "p03",
+      "fullName": "יעל שלומית סרדצ'ה (לשנסקי)",
+      "firstName": "יעל שלומית",
+      "maidenName": "לשנסקי",
+      "marriedName": "סרדצ'ה",
+      "gender": "F",
+      "status": "alive",
+      "dob_gregorian": "1984-01-04",
+      "dob_hebrew": "א' שבט",
+      "dob_hebrew_year": "ה' תשמ\"ד",
+      "parents": ["p01", "p02"],
+      "marriage": {
+        "spouseId": "p_yan",
+        "date_gregorian": null,
+        "date_hebrew": null
+      },
+      "children": ["p14", "p17", "p20"]
+    },
+    {
+      "id": "p_yan",
+      "fullName": "יאן סרדצ'ה",
+      "firstName": "יאן",
+      "gender": "M",
+      "status": "alive",
+      "dob_gregorian": null,
+      "dob_hebrew": null,
+      "notes": "בעל של יעל (p03)",
+      "marriage": {
+        "spouseId": "p03",
+        "date_gregorian": null,
+        "date_hebrew": null
+      },
+      "children": ["p14", "p17", "p20"]
+    },
+
+    {
+      "id": "p04",
+      "fullName": "נאוה בתיה גלעם (לשנסקי)",
+      "firstName": "נאוה בתיה",
+      "maidenName": "לשנסקי",
+      "marriedName": "גלעם",
+      "gender": "F",
+      "status": "alive",
+      "dob_gregorian": "1985-06-16",
+      "dob_hebrew": "כ\"ח סיון",
+      "dob_hebrew_year": "ה' תשמ\"ה",
+      "parents": ["p01", "p02"],
+      "marriage": {
+        "spouseId": "p_shai",
+        "date_gregorian": null,
+        "date_hebrew": null
+      },
+      "children": ["p10", "p11", "p12", "p13", "p18", "p23"]
+    },
+    {
+      "id": "p_shai",
+      "fullName": "שי גלעם",
+      "firstName": "שי",
+      "gender": "M",
+      "status": "alive",
+      "dob_gregorian": null,
+      "dob_hebrew": null,
+      "notes": "בעל של נאוה (p04)",
+      "marriage": {
+        "spouseId": "p04",
+        "date_gregorian": null,
+        "date_hebrew": null
+      },
+      "children": ["p10", "p11", "p12", "p13", "p18", "p23"]
+    },
+
+    {
+      "id": "p05",
+      "fullName": "עדינה בתאל לשנסקי",
+      "firstName": "עדינה בתאל",
+      "gender": "F",
+      "status": "alive",
+      "dob_gregorian": "1987-04-28",
+      "dob_hebrew": "ל' ניסן",
+      "dob_hebrew_year": "התשמ\"ז",
+      "parents": ["p01", "p02"]
+    },
+
+    {
+      "id": "p06",
+      "fullName": "שמעון מאיר לשנסקי",
+      "firstName": "שמעון מאיר",
+      "gender": "M",
+      "status": "alive",
+      "dob_gregorian": "1989-01-01",
+      "dob_hebrew": "כ\"ד טבת",
+      "dob_hebrew_year": "התשמ\"ט",
+      "parents": ["p01", "p02"],
+      "marriage": {
+        "spouseId": "p_hichliah",
+        "date_gregorian": null,
+        "date_hebrew": null
+      },
+      "children": ["p15", "p16", "p19", "p21", "p22", "p24", "p25"]
+    },
+    {
+      "id": "p_hichliah",
+      "fullName": "היכליה לשנסקי",
+      "firstName": "היכליה",
+      "gender": "F",
+      "status": "alive",
+      "dob_gregorian": null,
+      "dob_hebrew": null,
+      "notes": "אשת שמעון (p06)",
+      "marriage": {
+        "spouseId": "p06",
+        "date_gregorian": null,
+        "date_hebrew": null
+      },
+      "children": ["p15", "p16", "p19", "p21", "p22", "p24", "p25"]
+    },
+
+    {
+      "id": "p07",
+      "fullName": "איתמר שלמה לשנסקי",
+      "firstName": "איתמר שלמה",
+      "gender": "M",
+      "status": "alive",
+      "dob_gregorian": "1992-08-23",
+      "dob_hebrew": "כ\"ה אב",
+      "dob_hebrew_year": "התשנ\"ב",
+      "parents": ["p01", "p02"],
+      "isCurrentUser": true,
+      "role": "admin"
+    },
+
+    {
+      "id": "p08",
+      "fullName": "אברהם יצחק לשנסקי",
+      "firstName": "אברהם יצחק",
+      "gender": "M",
+      "status": "alive",
+      "dob_gregorian": "1998-03-31",
+      "dob_hebrew": "ד' ניסן",
+      "dob_hebrew_year": "התשנ\"ח",
+      "parents": ["p01", "p02"],
+      "marriage": {
+        "spouseId": "p_achinnoam",
+        "date_gregorian": null,
+        "date_hebrew": null
+      },
+      "children": ["p26"]
+    },
+    {
+      "id": "p_achinnoam",
+      "fullName": "אחינועם לשנסקי",
+      "firstName": "אחינועם",
+      "gender": "F",
+      "status": "alive",
+      "dob_gregorian": null,
+      "dob_hebrew": null,
+      "notes": "אשת אברהם (p08)",
+      "marriage": {
+        "spouseId": "p08",
+        "date_gregorian": null,
+        "date_hebrew": null
+      },
+      "children": ["p26"]
+    },
+
+    {
+      "id": "p09",
+      "fullName": "מרדכי דוד לשנסקי",
+      "firstName": "מרדכי דוד",
+      "gender": "M",
+      "status": "alive",
+      "dob_gregorian": "2000-10-13",
+      "dob_hebrew": "י\"ד תשרי",
+      "dob_hebrew_year": "השס\"א",
+      "parents": ["p01", "p02"]
+    },
+
+    {
+      "id": "p10",
+      "fullName": "גבריאל ראי גלעם",
+      "firstName": "גבריאל ראי",
+      "gender": "M",
+      "status": "alive",
+      "dob_gregorian": "2008-09-03",
+      "dob_hebrew": "ג' אלול",
+      "dob_hebrew_year": "התשס\"ח",
+      "parents": ["p04", "p_shai"]
+    },
+    {
+      "id": "p11",
+      "fullName": "רחל אסתר גלעם",
+      "firstName": "רחל אסתר",
+      "gender": "F",
+      "status": "alive",
+      "dob_gregorian": "2009-11-07",
+      "dob_hebrew": "י\"ח אלול",
+      "dob_hebrew_year": "התשס\"ט",
+      "parents": ["p04", "p_shai"]
+    },
+    {
+      "id": "p12",
+      "fullName": "מעיין אורה גלעם",
+      "firstName": "מעיין אורה",
+      "gender": "F",
+      "status": "alive",
+      "dob_gregorian": "2010-12-01",
+      "dob_hebrew": "כ\"ד כסלו",
+      "dob_hebrew_year": "התשע\"א",
+      "parents": ["p04", "p_shai"]
+    },
+    {
+      "id": "p13",
+      "fullName": "מבשר ששון גלעם",
+      "firstName": "מבשר ששון",
+      "gender": "M",
+      "status": "alive",
+      "dob_gregorian": "2012-08-22",
+      "dob_hebrew": "ד' אלול",
+      "dob_hebrew_year": "התשע\"ב",
+      "parents": ["p04", "p_shai"]
+    },
+    {
+      "id": "p18",
+      "fullName": "גילי אהובה גלעם",
+      "firstName": "גילי אהובה",
+      "gender": "F",
+      "status": "alive",
+      "dob_gregorian": "2017-08-06",
+      "dob_hebrew": "ט\"ו באב",
+      "dob_hebrew_year": "התשע\"ז",
+      "parents": ["p04", "p_shai"]
+    },
+    {
+      "id": "p23",
+      "fullName": "הוד יוסף גלעם",
+      "firstName": "הוד יוסף",
+      "gender": "M",
+      "status": "alive",
+      "dob_gregorian": "2022-06-01",
+      "dob_hebrew": "ב' סיון",
+      "dob_hebrew_year": "התשפ\"ב",
+      "parents": ["p04", "p_shai"]
+    },
+
+    {
+      "id": "p14",
+      "fullName": "גלעד איתן סרדצ'ה",
+      "firstName": "גלעד איתן",
+      "gender": "M",
+      "status": "alive",
+      "dob_gregorian": "2015-04-03",
+      "dob_hebrew": "י\"ד ניסן",
+      "dob_hebrew_year": "התשע\"ה",
+      "notes": "ערב פסח",
+      "parents": ["p03", "p_yan"]
+    },
+    {
+      "id": "p17",
+      "fullName": "ארז בארי סרדצ'ה",
+      "firstName": "ארז בארי",
+      "gender": "M",
+      "status": "alive",
+      "dob_gregorian": "2017-07-14",
+      "dob_hebrew": "כ\"ב תמוז",
+      "dob_hebrew_year": "התשע\"ז",
+      "notes": "ליל שבת",
+      "parents": ["p03", "p_yan"]
+    },
+    {
+      "id": "p20",
+      "fullName": "שיראל תמר סרדצ'ה",
+      "firstName": "שיראל תמר",
+      "gender": "F",
+      "status": "alive",
+      "dob_gregorian": "2019-01-27",
+      "dob_hebrew": "כ\"א שבט",
+      "dob_hebrew_year": "התשע\"ט",
+      "parents": ["p03", "p_yan"]
+    },
+
+    {
+      "id": "p15",
+      "fullName": "רוני רחל לשנסקי",
+      "firstName": "רוני רחל",
+      "gender": "F",
+      "status": "alive",
+      "dob_gregorian": "2015-10-23",
+      "dob_hebrew": "י\"א חשוון",
+      "dob_hebrew_year": "התשע\"ו",
+      "notes": "כניסת שבת",
+      "parents": ["p06", "p_hichliah"]
+    },
+    {
+      "id": "p16",
+      "fullName": "תהילה לשנסקי",
+      "firstName": "תהילה",
+      "gender": "F",
+      "status": "alive",
+      "dob_gregorian": "2016-12-29",
+      "dob_hebrew": "י\"ט כסלו",
+      "dob_hebrew_year": "התשע\"ז",
+      "notes": "חנוכה",
+      "parents": ["p06", "p_hichliah"]
+    },
+    {
+      "id": "p19",
+      "fullName": "חן ראשית לשנסקי",
+      "firstName": "חן ראשית",
+      "gender": "F",
+      "status": "alive",
+      "dob_gregorian": "2018-10-02",
+      "dob_hebrew": "כ\"ג תשרי",
+      "dob_hebrew_year": "התשע\"ט",
+      "parents": ["p06", "p_hichliah"]
+    },
+    {
+      "id": "p21",
+      "fullName": "שחר אורה לשנסקי",
+      "firstName": "שחר אורה",
+      "gender": "F",
+      "status": "alive",
+      "dob_gregorian": "2020-07-31",
+      "dob_hebrew": "כ\"א אב",
+      "dob_hebrew_year": "התש\"פ",
+      "parents": ["p06", "p_hichliah"]
+    },
+    {
+      "id": "p22",
+      "fullName": "ספיר לשנסקי",
+      "firstName": "ספיר",
+      "gender": null,
+      "status": "alive",
+      "dob_gregorian": "2022-04-17",
+      "dob_hebrew": "ט\"ז ניסן",
+      "dob_hebrew_year": "התשפ\"ב",
+      "parents": ["p06", "p_hichliah"]
+    },
+    {
+      "id": "p24",
+      "fullName": "חיים לשנסקי",
+      "firstName": "חיים",
+      "gender": "M",
+      "status": "alive",
+      "dob_gregorian": "2024-01-04",
+      "dob_hebrew": "כ\"ג טבת",
+      "dob_hebrew_year": "התשפ\"ד",
+      "notes": "ברית בראש חודש שבט",
+      "parents": ["p06", "p_hichliah"]
+    },
+    {
+      "id": "p25",
+      "fullName": "תגל שרה לשנסקי",
+      "firstName": "תגל שרה",
+      "gender": "F",
+      "status": "alive",
+      "dob_gregorian": "2026-02-15",
+      "dob_hebrew": "כ\"ח שבט",
+      "dob_hebrew_year": "התשפ\"ו",
+      "notes": "אותו יום כמו אריק זרלד (תאומים?)",
+      "parents": ["p06", "p_hichliah"]
+    },
+    {
+      "id": "p26",
+      "fullName": "אריק זרלד לשנסקי",
+      "firstName": "אריק זרלד",
+      "gender": "M",
+      "status": "alive",
+      "dob_gregorian": "2026-02-15",
+      "dob_hebrew": "כ\"ח שבט",
+      "dob_hebrew_year": "התשפ\"ו",
+      "notes": "אותו יום כמו תגל שרה (תאומים?)",
+      "parents": ["p08", "p_achinnoam"]
+    },
+
+    {
+      "id": "p_sasson_gilam",
+      "fullName": "ששון גלעם",
+      "firstName": "ששון",
+      "gender": "M",
+      "status": "deceased",
+      "relationToCurrentUser": "אבא של שי (p_shai)",
+      "yahrzeit_hebrew": "ח' ניסן"
+    },
+    {
+      "id": "p_igor_serdacha",
+      "fullName": "איגור סרדצ'ה",
+      "firstName": "איגור",
+      "gender": "M",
+      "status": "deceased",
+      "relationToCurrentUser": "אבא של יאן (p_yan)",
+      "yahrzeit_hebrew": "ח' אייר"
+    },
+    {
+      "id": "p_eliezer_meir",
+      "fullName": "אליעזר מאיר בן שמעון אליהו רבינוביץ",
+      "firstName": "אליעזר מאיר",
+      "lastName": "רבינוביץ",
+      "gender": "M",
+      "status": "deceased",
+      "relationToCurrentUser": "סבא מצד אמא (של אמא של איתמר - p07)",
+      "yahrzeit_hebrew": "כ\"ג אדר"
+    },
+    {
+      "id": "p_zissel",
+      "fullName": "זיסעל שולמית בת נחמן רבינוביץ",
+      "firstName": "זיסעל שולמית",
+      "lastName": "רבינוביץ",
+      "gender": "F",
+      "status": "deceased",
+      "relationToCurrentUser": "סבתא מצד אמא (של אמא של איתמר - p07)",
+      "yahrzeit_hebrew": "י\"ט תמוז"
+    },
+    {
+      "id": "p_shimon_milner",
+      "fullName": "שמעון בן אברהם מילנר",
+      "firstName": "שמעון",
+      "lastName": "מילנר",
+      "gender": "M",
+      "status": "deceased",
+      "relationToCurrentUser": "סבא של טסה (p02)",
+      "yahrzeit_hebrew": "י\"ט תמוז"
+    },
+    {
+      "id": "p_beila",
+      "fullName": "ביילע בת סמסון לשנסקי/וידטסקי",
+      "firstName": "ביילע",
+      "lastName": "לשנסקי/וידטסקי",
+      "gender": "F",
+      "status": "deceased",
+      "relationToCurrentUser": "סבתא מצד אמא",
+      "yahrzeit_hebrew": "כ\"ח תמוז",
+      "notes": "יש לבדוק - אם סבתא-רבא"
+    },
+    {
+      "id": "p_shmuel_aharon",
+      "fullName": "שמואל אהרון בן יעקוב פילר",
+      "firstName": "שמואל אהרון",
+      "lastName": "פילר",
+      "gender": "M",
+      "status": "deceased",
+      "relationToCurrentUser": "חבר נפטר",
+      "yahrzeit_hebrew": "י\"א ניסן",
+      "yahrzeit_year_hebrew": "תשע\"ד",
+      "notes": "חבר משפחה, לא קרוב משפחה ישיר"
+    }
+  ],
+
+  "missing_data": [
+    "תאריכי לידה/פטירה של Granny (סוניא) ו-Birdie (ירמיה)",
+    "תאריך לידה של יאן סרדצ'ה",
+    "תאריך לידה של שי גלעם",
+    "תאריך לידה של היכליה",
+    "תאריך לידה של אחינועם",
+    "תאריכי נישואין לכל הזוגות",
+    "תמונות לכל אדם"
+  ]
+}
